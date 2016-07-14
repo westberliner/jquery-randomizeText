@@ -2,7 +2,7 @@
   $.fn.randomizeText = function(options) {
     // options and defaults
     var settings = $.extend({
-        text: "you need to add an text by adding {text:'my text'} as argument.",
+        text: "you need to add a text by adding {text:'my text'} as argument.",
         refreshRate: 50,
         timePerLetter: 120,
         randomTime: 50,
