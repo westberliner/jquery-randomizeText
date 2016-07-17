@@ -15,7 +15,7 @@ A jquery Plugin to render text animated with random letters.
 ~~~
 
 
-### Quick example 1
+### Quick example 2
 
 ~~~ html
 <div class="text">some text 1</div>
