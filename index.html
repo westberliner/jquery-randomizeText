@@ -6,10 +6,11 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/randomize_text.js"></script>
 <body>
-<div id="text"></div>
+<div class="text test-1">some text 1</div>
+<div class="text test-2">some text 2</div>
 <script type="text/javascript">
   $(document).ready(function() {
-    $('#text').randomizeText({text: "my random text animation"});
+    $('.text').randomizeText();
   });
 </script>
 </body>
